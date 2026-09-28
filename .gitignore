@@ -1,0 +1,16 @@
+   # Audit output contains real account and permission data - never commit it
+   M365Audit_*/
+   M365AccessReport_*.html
+   MailboxAccess_*/
+   FullAccessScan/
+   M365Permissions_*/
+   *.csv
+   *.pdf
+
+   # OS / editor
+   .DS_Store
+   Thumbs.db
+   .vscode/
+
+   # Keep the fictional samples
+   !examples/**

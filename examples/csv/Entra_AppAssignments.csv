@@ -1,0 +1,4 @@
+"Application","AppRole","AssignedVia","PrincipalType","Assigned"
+"Contoso HR Portal","msiam_access","All Employees","Group","3/2/2026 2:30:00 PM"
+"Password Vault","User","All Employees","Group","3/2/2026 2:30:00 PM"
+"Design Tool","User","SaaS-Design-Tool-Users","Group","4/15/2026 9:12:00 AM"

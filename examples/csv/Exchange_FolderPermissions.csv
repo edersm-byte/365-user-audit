@@ -1,0 +1,3 @@
+"Mailbox","Folder","Users","Via","AccessRights","SharingPermissionFlags","CalendarDelegate"
+"asmith@contoso.com","Calendar","jdoe@contoso.com","Direct","Editor","Delegate","True"
+"servicedesk@contoso.com","Calendar","jdoe@contoso.com","Direct","Reviewer","","False"

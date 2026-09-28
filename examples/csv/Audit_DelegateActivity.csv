@@ -1,0 +1,6 @@
+"User","Mailbox","Operation","Count","FirstSeen","LastSeen"
+"jdoe@contoso.com","asmith@contoso.com","SendOnBehalf","14","5/12/2026 8:02:13 AM","9/21/2026 4:45:09 PM"
+"jdoe@contoso.com","asmith@contoso.com","Update","9","5/12/2026 8:02:13 AM","9/21/2026 4:45:09 PM"
+"jdoe@contoso.com","servicedesk@contoso.com","MailItemsAccessed","37","5/5/2026 9:10:00 AM","9/26/2026 2:14:52 PM"
+"jdoe@contoso.com","servicedesk@contoso.com","SendAs","22","5/5/2026 9:30:41 AM","9/25/2026 11:03:18 AM"
+"jdoe@contoso.com","itservicedesk@contoso.com","MailItemsAccessed","4","6/1/2026 1:00:00 PM","8/30/2026 10:20:00 AM"

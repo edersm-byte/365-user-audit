@@ -1,0 +1,28 @@
+Microsoft 365 access audit - 2026-09-28 10:42
+Accounts: jdoe@contoso.com, jdoe@contosocontractors.com
+
+[jdoe@contoso.com] Doe, Jordan | Enabled: True | Synced from AD: True | Type: Member
+  Entra directory roles: None
+  Groups: 5 | App assignments: 3 | OAuth consents: 0
+  Owned objects: 6 (2 application, 2 group, 1 servicePrincipal, 1 tokenLifetimePolicy)
+  Owned apps needing review: Reporting Connector [Has credentials - review]
+
+[jdoe@contosocontractors.com] Doe, Jordan (Contractor) | Enabled: True | Synced from AD: False | Type: Member
+  Entra directory roles: None
+  Groups: 2 | App assignments: 1 | OAuth consents: 1
+  Owned objects: 1 (1 group)
+  Owned apps needing review: None
+
+[Exchange Online]
+  Admin roles beyond default end-user: None
+  Role groups: None
+  Full Access: servicedesk@contoso.com (jdoe@contoso.com, Direct); projects@contoso.com (jdoe@contoso.com, Group: IT Service Desk)
+  Full Access coverage: PARTIAL - 142 candidate mailboxes checked; run with -FullScan to confirm
+  Send As: Service Desk (jdoe@contoso.com, Direct)
+  Send on Behalf: asmith@contoso.com (jdoe@contoso.com, Direct)
+  Forwarding: jdoe@contosocontractors.com: Inbox rule: Copy to personal (Enabled: True) -> "Jordan Doe" [SMTP:jordan.doe@example.net]
+  Audit (last 180 days): 2 permission changes, 5 delegate activity entries
+  Folder permissions (mailboxes seen in audit): asmith@contoso.com Calendar: Editor [calendar delegate]; servicedesk@contoso.com Calendar: Reviewer
+  Group mailboxes accessed: 2 (all as member/owner)
+
+Not covered: on-prem AD, SharePoint/OneDrive site permissions, Teams private channels, Azure RBAC, roles inside third-party SaaS apps.

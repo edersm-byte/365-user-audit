@@ -1,0 +1,4 @@
+"Name","Type","ApiAppPermissions","Secrets","Certificates","LatestCredentialExpiry","Risk"
+"Design Tool","Service principal","","","","","None"
+"Design Tool","App registration","","0","0","","None"
+"Reporting Connector","App registration","","1","0","1/15/2027 12:00:00 AM","Has credentials - review"

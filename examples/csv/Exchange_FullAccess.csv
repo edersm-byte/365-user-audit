@@ -1,0 +1,3 @@
+"Mailbox","MailboxType","Users","Via","AccessRights","IsInherited","FoundBy"
+"servicedesk@contoso.com","SharedMailbox","jdoe@contoso.com","Direct","FullAccess","False","Audit: delegate activity; Shared/resource mailbox"
+"projects@contoso.com","SharedMailbox","jdoe@contoso.com","Group: IT Service Desk","FullAccess","False","Shared/resource mailbox"
